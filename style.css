@@ -30,4 +30,6 @@ body {
 
 .parent .child-1 {
 	position: relative;
+	top: 50px;
+	left: 50px;
 }
