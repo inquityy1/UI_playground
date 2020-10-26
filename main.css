@@ -18,13 +18,13 @@ body {
     background: white;
     padding: 10px;
     border: 5px solid black;
-	height: 800px;
+	height: 1300px;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	flex-wrap: wrap;
 	/* flex-flow: row wrap;-shortcut */
-	align-items: center;
-	justify-content: center;
+	align-items: center; /* flex-direction: row; up-down axis flex-direction: column; left-right axis */
+	justify-content: center; /* flex-direction: row; left-right axis flex-direction: column; up-down axis */
   }
 
 .item-1 {
