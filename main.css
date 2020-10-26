@@ -20,7 +20,7 @@ body {
     border: 5px solid black;
 	height: 1300px;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	flex-wrap: wrap;
 	/* flex-flow: row wrap;-shortcut */
 	align-items: center; /* flex-direction: row; up-down axis flex-direction: column; left-right axis */
